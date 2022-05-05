@@ -1,3 +1,12 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+
+}
+
 a:link {
   color: rgb(14,31,65);
 }
