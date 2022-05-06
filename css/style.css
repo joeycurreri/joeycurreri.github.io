@@ -45,8 +45,16 @@ section {
   padding: 10px;
 }
 
+caption {
+  font-weight: bold;
+}
+
+nav {
+  background-color: rgb(173,205,215);
+}
+
 #header {
-  background-color: rgb(173,180,215);
+  background-color: rgb(137,207,200);
 }
 
 #introduction {
@@ -74,5 +82,5 @@ section {
 }
 
 #info {
-  background-color: rgb(240,248,255);
+  background-color: rgb(140,180,200);
 }
