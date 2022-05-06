@@ -1,10 +1,6 @@
 body {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
-}
-
-header {
-
 }
 
 a:link {
@@ -25,10 +21,26 @@ a:active {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
+    "header header  header"
+    "nav    section  section"
+    "footer footer  footer"
   font-family: "Open-Sans", "Helvetica". sans-serif;
   line-height: 1.25;
+  grid-gap: 16px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+footer {
+  grid-area: footer;
 }
 
 h1,
@@ -52,6 +64,7 @@ caption {
 nav {
   background-color: rgb(173,205,215);
 }
+
 
 #header {
   background-color: rgb(137,207,200);
