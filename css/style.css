@@ -27,7 +27,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "#introduction  #geography  #people-and-society #government";
   font-family: "Open-Sans", "Helvetica". sans-serif;
   line-height: 1.25;
 }
@@ -46,30 +45,34 @@ section {
   padding: 10px;
 }
 
+#header {
+  background-color: rgb(173,180,215);
+}
+
 #introduction {
   background-color: rgb(173,216,230);
 }
 
-#geography {
+#joey-curreri-quintet {
+  background-color: rgb(255,255,159);
+}
+
+#live-performances {
   background-color: rgb(255,213,128);
 }
 
-#people-and-society {
-  background-color: rgb(205,92,92);
+#work {
+  background-color: rgb(200,120,160);
 }
 
-#government {
-  background-color: rgb(255,255,159);
+#achievements-and-awards {
+  background-color: rgb(160,120,255)
 }
 
 #images {
   background-color: #FFFFFF;
 }
 
-#sources {
+#info {
   background-color: rgb(240,248,255);
-}
-
-#footer {
-  background-color: rgb(240,248,255)
 }
